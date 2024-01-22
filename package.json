@@ -1,0 +1,24 @@
+{
+  "name": "sync_fees",
+  "version": "1.0.0",
+  "description": "Script de synchro des frais de port sur les fiches produits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastienLarcherLaffont/assisteaux_fees_sync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastienLarcherLaffont/assisteaux_fees_sync/issues"
+  },
+  "homepage": "https://github.com/SebastienLarcherLaffont/assisteaux_fees_sync#readme",
+  "dependencies": {
+    "odoo-rest-client": "file:../odoo-rest-client",
+    "odoo-rest-memory": "file:../odoo-rest-memory"
+  }
+}
